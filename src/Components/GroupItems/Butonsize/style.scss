@@ -1,0 +1,22 @@
+.btn-size {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+  > span {
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+  .chckWidth {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    .widthlabel {
+      position: absolute;
+      right: 0;
+    }
+
+  }
+}

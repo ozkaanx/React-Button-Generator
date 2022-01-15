@@ -1,0 +1,37 @@
+.shadow {
+  position: relative;
+  .color-group {
+    display: flex;
+    gap: 15px;
+  }
+  .shadow-color,
+  .border-color {
+    position: relative;
+    > span {
+      font-size: 16px;
+      letter-spacing: 0.8px;
+    }
+    .chrome-picker {
+      margin-top: 20px;
+    }
+  }
+
+  .shadow-position {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .shadow-range {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      gap: 5px;
+      .shadowlabel {
+        position: absolute;
+        right: 0;
+        font-weight: bold;
+        font-size: 13px;
+      }
+    }
+  }
+}

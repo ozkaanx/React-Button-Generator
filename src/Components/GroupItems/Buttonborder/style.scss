@@ -1,0 +1,41 @@
+.btn-border {
+  margin-top: 20px;
+  > span {
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+  .border-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    .rangeborder {
+      position: relative;
+      > input {
+        margin-top: 5px;
+        width: 90%;
+        -webkit-appearance: none;
+        height: 20px;
+        background: #d3d3d3a6;
+        outline: none;
+        opacity: 0.7;
+        border-radius: 10px;
+        overflow: hidden;
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 20px;
+          height: 20px;
+          background: #db2626;
+          cursor: pointer;
+        }
+      }
+      .radiuslabel,.borderlabel{
+        position: absolute;
+        top: 4px;
+        left: 100px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}
