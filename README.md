@@ -1,6 +1,6 @@
 # Button Generator
 
-Empty project.
+You can shape the buttons as you wish with the options offered to yo.
 
 ## Building and running on localhost
 
